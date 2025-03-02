@@ -11,7 +11,6 @@ with open('/Users/sleepdeprived/Documents/Nayan/Python/Eng2Ger/dataset/deu.txt',
 max_words = int(input("Enter max words: "))
 df = pd.DataFrame(data[:max_words], columns=['English', 'German'])
 
-# Normalize the text
 def normalize_text(text):
     text = text.lower()
     text = text.strip()
